@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 body {
     display: flex;
     flex-direction: column; 
@@ -23,8 +25,9 @@ body {
 }
 
 .header h1 {
-    font-size: 32px;
-    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
 }
 
 .header ul {
@@ -38,6 +41,7 @@ body {
     text-decoration: none;
     color: black;
     font-size: 18px;
+    font-weight: 700;
     color: white;
 }
 
@@ -58,21 +62,24 @@ body {
 }
 
 .hero-text h2 {
-    font-size: 68px;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight: 1500;
+    color: #f9faf8;
     margin: 0;
 }
 
 .hero-text p {
     font-size: 18px;
-    line-height: 1.5;
+    font-weight: 700;
+    color:#e5e7eb;
+    line-height: 1.2;
     margin: 0;
 }
 
 .hero-btn {
     padding: 12px 24px;
     font-size: 18px;
-    background-color: rgb(44, 123, 251);
+    background-color: #3882f6;
     color: white;
     border: none;
     cursor: pointer;
@@ -89,7 +96,7 @@ body {
 .card-section {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 60px;
     justify-content: center;
     align-items: center;
     padding: 32px;
@@ -97,7 +104,7 @@ body {
 
 .card-heading h3 {
     font-size: 42px;
-    font-weight: bold;
+    font-weight:bold;
     margin: 0;
 }
 
@@ -118,6 +125,7 @@ body {
     border-radius: 12px;
     background-color: #f3f4f6;
     font-size: 22px;
+    border: 1px solid rgb(157, 157, 242);
 }
 
 .card img {
@@ -140,8 +148,9 @@ body {
 }
 
 .testimony-section .phrase {
-    font-size: 32px;
-    font-weight: 300;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 100;
     font-style: italic;
     max-width: 1000px;
 }
@@ -161,7 +170,7 @@ body {
     align-items: center;
     padding: 48px 80px;
     width: 1000px;
-    background-color: #3682f6;
+    background-color:  #3882f6;
     margin: 16px auto;
     border-radius: 12px;
     margin-top: 88px;
@@ -177,20 +186,21 @@ body {
 
 .cta-text h4 {
     font-size: 32px;
-    font-weight: bold;
+    font-weight: 900;
     margin: 0;
 }
 
 .cta-text p {
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 700;
     margin: 0;
 }
 
 .cta-btn button {
     padding: 12px 24px;
     font-size: 18px;
-    border: 1px solid white;
+    font-weight: bold;
+    border: 2px solid white;
     background-color: #3682f6;
     color: white;
     cursor: pointer;
@@ -204,4 +214,5 @@ body {
     padding: 16px;
     background-color: #1f2937;
     color: white;
+    font-weight: 700;
 }
